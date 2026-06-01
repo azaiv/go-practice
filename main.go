@@ -1,12 +1,7 @@
 package main
 
-import (
-	`go-study/errors`
-)
+import _select "go-study/select"
 
 func main() {
-	errors.RunErrors(
-		100,
-		300,
-	)
+	_select.CreateMessage()
 }
